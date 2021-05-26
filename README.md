@@ -39,7 +39,7 @@ Metoda po wywołaniu, nasłuchuje zmiań stanów GSM telefonu. W momencie kiedy 
 
 ### Parametery
 
-- __event__: Funkcja CallBack(Listener) która zwraca typ String z wartością stanu GSM. 
+- __event__: Funkcja CallBack(Listener) która zwraca typ __String__ z wartością stanu GSM. 
 - __error__: Funkcja CallBack która zwraca błąd jeśli takowy wystąpił.
 
 ### Przykład
