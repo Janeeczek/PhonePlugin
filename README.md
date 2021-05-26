@@ -26,7 +26,11 @@ Metoda po wywołaniu, nasłuchuje zmiań stanów GSM telefonu. W momencie kiedy 
 *Metoda nasłuchuje do momentu zakończenia działania aplikacji*
 
 ### Wynik    
-  PhonePlugin :: phone is on call"
+  - __DISCONNECTED__: Połączenie zostało zakończone lub telefon nie prowadzi żadnej rozmowy.
+  - __DIALING__: Telefon dzwoni do kogoś.
+  - __INCOMING__: Ktoś dzwoni do tego telefonu
+  - __CONNECTED__: Telefon aktualnie jest w trakcie aktywnej rozmowy.
+  - __SET__: Wiadomość inicjalizacyjna. Zostało ustanowione połączenie między pluginem a Cordovą
 
 
 ### Parametery
