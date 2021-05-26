@@ -1,12 +1,16 @@
 # PhonePlugin dla IOS
 
 #INSTALACJA
-1. instalacja plugman z npm: npm install -g plugman
-2. pobranie repozytorium.
-3. rozpakowanie go.
-4. instalacja pluginu komendą : plugman install --platform ios --project <scieżka do folderu \platoforms\ios w projekcie do którego ma być wgrany plugin> --plugin <ścieżka do folderu z pluginem>
-5. 
-    Przykład : plugman install --platform ios --project C:\Users\Jan.Mazurek\CordovaProjects\test\platforms\ios --plugin        C:\Users\Jan.Mazurek\plugins\PhonePlugin
+0. Aby plugin działał konieczne jest dodanie pluginu wspierającego swift PRZED dodaniem tego pluginu oraz przed wpisaniem komendy cordova platform add ios.
+1. Dodawanie pluginu wspomagającego:(wpisać będąc w katalogu projektu cordova) cordova plugin add cordova-plugin-add-swift-support --save
+2. Następnie wpisać: cordova platform add ios
+3. Należy teraz uruchomić Xcode będąc wewnatrz projektu open ./platforms/ios/NAZWAPROJEKTU.xcworkspace/
+4. W Xcode przejść do nazwaProjectu.xcodeproj. Wybrać okno targets, następnie Build Settings i w zakładce Swift Compiler - Language zmienić Swift Language Version na Swift 5
+5. Instalacja plugman z npm: npm install -g plugman
+6. Pobranie repozytorium.
+7. Rozpakowanie go.
+8. Instalacja pluginu komendą : plugman install --platform ios --project <scieżka do folderu \platoforms\ios w projekcie do którego ma być wgrany plugin> --plugin <ścieżka do folderu z pluginem>
+9. Przykład : plugman install --platform ios --project C:\Users\Jan.Mazurek\CordovaProjects\test\platforms\ios --plugin        C:\Users\Jan.Mazurek\plugins\PhonePlugin
 
 # API
 
