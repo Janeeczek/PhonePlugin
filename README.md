@@ -25,7 +25,7 @@ PhonePlugin.onCall(event, error);
 Metoda po wywołaniu, nasłuchuje zmiań stanów GSM telefonu. W momencie kiedy telefon zmieni stan, zwróci jedno ze zdarzeń: "DISCONNECTED", "DIALING", "INCOMING", "CONNECTED","SET".  
 *Metoda nasłuchuje do momentu zakończenia działania aplikacji*
 
-### Wynik    
+### Wartość zwracana do JS    
   - __DISCONNECTED__: Połączenie zostało zakończone lub telefon nie prowadzi żadnej rozmowy.
   - __DIALING__: Telefon dzwoni do kogoś.
   - __INCOMING__: Ktoś dzwoni do tego telefonu
